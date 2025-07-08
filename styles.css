@@ -1,0 +1,198 @@
+.top-ad-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.hobbies {
+  color: #a30b37;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5.5rem;
+}
+
+.line {
+  color: #a30b37;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5.5rem;
+}
+
+.fun-facts {
+  color: #a30b37;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5.5rem;
+}
+
+body {
+  font-family: Courier New;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 8px 15px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  border: none;
+  background: transparent;
+  color: gray;
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+  width: 650px;
+  padding-right: 10px;
+}
+
+.search-button {
+  background-color: #a30b37;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.search-button:hover {
+  background-color: #a30b37;
+}
+
+.search-button svg {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+
+.search-tool-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  max-width: 90%;
+}
+
+.my-name {
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: black;
+  flex-shrink: 0;
+}
+
+.summer-activities-popup {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+}
+
+.circle {
+  width: 130px;
+  height: 130px;
+  background-color: #f18eaa;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.circle:hover {
+  transform: scale(1.05);
+  background-color: #d56081;
+  cursor: pointer;
+}
+
+.about-me-circles {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.about-me-description {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.my-text {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+  padding-left: -50px;
+}
+
+.large-senior-photo {
+  width: 300px;
+  height: 300px;
+}
+
+.large-Protasker {
+  width: 200px;
+  height: 400px;
+}
+
+.large-SustainUp {
+  width: 200px;
+  height: 400px;
+}
+
+.large-BraveBeginnings {
+  width: 200px;
+  height: 400px;
+}
+
+.large-Youtube {
+  width: 700px;
+  height: 400px;
+}
+
+.social-links-container {
+  align-items: flex-start;
+  background-color: beige;
+  border-radius: 30px;
+  padding: 8px 15px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.content-section {
+  margin-right: auto;
+}
